@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Players</title>
+    <!-- CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <div class="container-grid header-flex">
+            <!-- container flex -->
+
+            <!-- flex items -->
+            
+
+            <nav class="menu">
+                <a href="./login.html">Entrar</a>
+                <a href="#">Lançamentos</a>
+                <a href="#">Carrinho</a>
+                <a href="#">Produtos</a>
+                <a href="#">Contato</a>
+            </nav>
+            <div class ="logo">
+            <img  src="images/logo-facebook.png" title="Facebook" alt="Facebook">
+            <img  src="images/logo-instagram.png" title="Instagram" alt="Instagram">
+            <img  src="images/logo-yt.png" title="Youtube" alt="Youtube">
+            </div>
+
+            <!-- onclick="abreFechaMenu();" -->
+            <img onclick="abreFechaMenu();" class="menu-bars" src="./images/bars.svg" alt="">
+        </div>
+
+
+    </header>
+
+    <main>        
+
+        <!-- Container Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/banner_cs.png" class="d-block w-100" alt="...">
+                    
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/banner_lol.png" class="d-block w-100" alt="...">
+                    
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/banner_pilotos.png" class="d-block w-100" alt="...">
+                   
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+
+        <section class="patrocinados">
+            <div class="container-grid patrocinados-flex">
+                <img src="./images/patrocinadores/f1-logo.png" title="link fórmula 1" alt="fórmula 1">
+                <img src="./images/patrocinadores/lol-logo.png" alt="jogo lol" title="jogo lol">                
+                <img src="./images/patrocinadores/fifa.png" alt="fifa" title="fifa">
+            </div>
+        </section>
+
+
+        <!-- cards -->
+        <section class="cards">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12">
+                        
+                    </div>
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center justify-content-md-start">
+                        <div class="card">
+                            <img src="./images/havit-hv-h2232d-.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Headset Gamers RGB</h5>
+                                <p class="card-text">Headset USB 3.0 com Microfone</p>
+                                <p class="card-text card-price">R$ 70,00</p>
+                                <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center justify-content-md-start">
+                        <div class="card">
+                            <img src="./images/31HjSVcIOOL._AC_SY580_.jpg" class="card-img-mouse" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mouse Gamer</h5>
+                                <p class="card-text">Mouse Gamer USB 3.0 RGB DPI 12000</p>
+                                <p class="card-text card-price">R$ 130,00</p>
+                                <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center justify-content-md-start">
+                        <div class="card">
+                            <img src="./images/teclado_gamer_rgb_k_mex_rainbow_4181_1_5849b3344144db8385c4e09639e0a72f.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Teclado Gamer</h5>
+                                <p class="card-text">Teclado Gamer Rainbow USB 3.0</p>
+                                <p class="card-text card-price">R$ 75,00</p>
+                                <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center justify-content-md-start">
+                        <div class="card">
+                            <img src="./images/mousepad.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mouse Pad USB</h5>
+                                <p class="card-text">Mouse Pad USB RGB 80CM</p>
+                                <p class="card-text card-price">R$ 60,00</p>
+                                <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center justify-content-md-start">
+                        <div class="card">
+                            <img src="./images/HomemAranhaPS4.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Homem Aranha</h5>
+                                <p class="card-text">Jogo do Homem Aranha</p>
+                                <p class="card-text card-price">R$ 100,00</p>
+                                <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center justify-content-md-start">
+                        <div class="card">
+                            <img src="./images/GTV.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">GTA V</h5>
+                                <p class="card-text">Jogo do GTA V</p>
+                                <p class="card-text card-price">R$ 70,00</p>
+                                <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center justify-content-md-start">
+                        <div class="card">
+                            <img src="./images/Asssisns Creed.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Assassins Creed</h5>
+                                <p class="card-text">Jogo do Assassins Creed Valhalla/p>
+                                <p class="card-text card-price">R$ 70,00</p>
+                                <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center justify-content-md-start">
+                        <div class="card">
+                            <img src="./images/Horizon.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Horizon/h5>
+                                <p class="card-text">Jogo do Horizon Forbidden</p>
+                                <p class="card-text card-price">R$ 130,00</p>
+                                <a href="#" class="btn btn-danger btn-buy">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div><!-- FIM DA ROW -->
+            </div><!-- FIM DO CONTAINER -->
+        </section>
+    </main>
+
+
+
+    <footer>Todos os direitos reservados</footer>
+
+    <!-- Bundle js do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- CHAMADA DO JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
